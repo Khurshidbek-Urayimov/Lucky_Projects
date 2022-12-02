@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home_bg {
+    background-image: url("../../public/images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.hw100 {
+    min-height: 100vh;
+}
+
+.about_btn {
+    border: 1px solid #F75E05;
+    color: #F75E05;
+}
+
+.about_btn:hover {
+    color: #fff;
+    background: #F75E05;
+}
+
+.explore_btn {
+    color: #fff;
+    background: #F75E05;
+}
+
+.explore_btn:hover {
+    background: transparent;
+    color: #F75E05;
+    border: 1px solid #F75E05;
+}
+
+.section_two {
+    background-image: url("../../public/images/section_two.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.benefit_btn_active {
+    border: 1px solid #F75E05;
+}
+
+.workshop {
+    background-image: url("../../public/images/bg-wrokshop.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.workshop .container {
+    padding-top: 120px;
+}
+
+.row-card {
+    border-radius: 4px;
+}
+
+.color-red {
+    color: #F75E05;
+}
+
+.right-btn {
+    width: 136px;
+    height: 44px;
+}
+
+.card-color {
+    color: #424551;
+}
+
+.test-bg .card .card-image {
+    background: #FFCF2D;
+}
+
+.test-bg {
+    background-image: url("../../public/images/bg-testimonial.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subscribe {
+    padding-top: 80px;
+}
+
+.subscribe-sec {
+    background: #FEDBD3;
+}
+
+.footer {
+    background: #1E212C;
+}
+
+.link a {
+    color: #fff;
+}
+
+.footer-logo img {
+    cursor: pointer;
+}
+
+.navbar-nav li a:hover {
+    border-bottom: 1px solid #F75E05;
+    color: #F75E05 !important;
+}
+
+.badge_btn {
+    border: 1px solid #F75E05;
+    color: #F75E05;
+}
+
+.badge_btn:hover {
+    color: #fff;
+    background: #F75E05;
+}
+
+.btn_border_none:hover {
+    border: 1px solid #F75E05;
+    color: #F75E05;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.test-sec{
+    /*background-image: url("../../public/images/bg-testimonial.png");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.icon-left{
+    background: #F75E05;
+    cursor: pointer;
+}
+.icon-right{
+    cursor: pointer;
+}
+.play_img{
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+

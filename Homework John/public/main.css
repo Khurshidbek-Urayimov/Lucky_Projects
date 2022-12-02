@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #21243D;
+}
+
+.hw100 {
+    min-height: 100vh;
+}
+
+.btn-home {
+    color: #fff;
+    background: #ff6464;
+    width: 208px;
+    height: 47px;
+}
+
+.home-center {
+    padding-top: 120px;
+}
+
+.post {
+    background-color: #EDF7FA;
+}
+
+.card-blog {
+    width: 800px;
+}
+
+.btn-num {
+    background: #142850;
+    color: #fff;
+}
+.active .nav-link{
+    color: #FF6464!important;
+}
+.btn-detail{
+    background: #ff6464;
+    color: #fff;
+}
+.btn:hover{
+    background: #21243D;
+    color: #fff;
+}
+@media only screen and (max-width: 600px){
+    .tmc{
+        text-align: center;
+    }
+
+}

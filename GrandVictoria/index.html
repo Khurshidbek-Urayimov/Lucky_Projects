@@ -1,0 +1,794 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GrandVictoria</title>
+    <link rel="stylesheet" href="./public/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="public/slick-1.8.1/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="public/slick-1.8.1/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="./public/style/main.css">
+</head>
+<body>
+
+<section class="home-section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2">
+                <div class="wrapper fixed-top">
+                    <!-- Sidebar  -->
+                    <nav id="sidebar">
+                        <div class="sidebar-header mt-3 d-flex align-items-center justify-content-center">
+                            <img src="./public/images/logo.png" alt="">
+                        </div>
+
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="text-dark" href="#">Главная</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text-dark" href="#">О комлексе</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text-dark" href="#">Преимущества</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text-dark" href="#">Инфраструктура</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text-dark" href="#">Условия приобретения</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text-dark" href="#">Типовые планировки</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text-dark" href="#">Галерея</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text-dark" href="#">Ход строительства</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text-dark" href="#">Акции</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text-dark" href="#">Новости</a>
+                            </li>
+                        </ul>
+                        <div class="bottom-nav">
+                            <strong class="text-dark ml-2 mt-2">Отдел продаж:</strong>
+                        </div>
+                        <div class="nav-bot-icon-desc d-flex ml-2">
+                            <img src="./public/images/icons/location.svg" alt="">
+                            <span class="text-muted ml-2">г. Нур-Султан,
+пересечение
+ул. С. Нурмағамбетова и Ж.Нажімеденова</span>
+                        </div>
+                        <div class="nav-bot-icon-desc d-flex mt-2 ml-2">
+                            <img src="./public/images/icons/phone.svg" alt="">
+                            <span class="text-muted ml-2">+7 7172 77-77-77</span>
+                        </div>
+                        <strong class="ml-2 pt-2 color-red">Заказать обратный звонок</strong>
+                        <div class="ins mt-2 ml-2">
+                            <img src="./public/images/icons/instagram.svg" alt="">
+                        </div>
+                    </nav>
+
+                    <!-- Page Content  -->
+                    <div id="contentss">
+                        <nav class="navbar d-md-none d-lg-none">
+                            <div class="container-fluid">
+                                <button type="button" id="sidebarCollapse" class="btn  bg-danger">
+                                    <span class="text-white">Open</span>
+                                    <span>Toggle Sidebar</span>
+                                </button>
+
+
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-10 col-lg-10">
+                <div class="containerasd mt-5 ">
+                    <div class="home-nav">
+                        <ul class="list-unstyled d-flex">
+                            <li>
+                                <a class="text-dark" href="#">Офисы</a>
+                            </li>
+                            <li class="ml-4">
+                                <a class="text-dark" href="#">Паркинги</a>
+                            </li>
+                            <li class="ml-4">
+                                <a class="text-dark" href="#">Келлеры</a>
+                            </li>
+                            <li class="ml-auto mr-5">
+                                <a class="text-dark" href="#">Скачать презентацию</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="home-bg w-100">
+                        <div class="home-logos d-flex align-items-center justify-content-center position-absolute p-4">
+                            <img class="img-fluid ml-5" src="./public/images/bg-logos.svg" alt="">
+                        </div>
+                        <div class="home-image">
+                            <img class="img-fluid" src="./public/images/home-bg.png" alt="">
+                        </div>
+                        <div class="home-bg-bottom-btn ">
+                            <button class="btn">Выбрать квартиру <img class="ml-3"
+                                                                      src="./public/images/icons/chevron-right.svg"
+                                                                      alt=""></button>
+                        </div>
+                    </div>
+                    <div class="complex-description">
+                        <div class="complex-before">
+                            <div class="complex-subtitle d-flex">
+                                <h2 class="ml-4 pl-1">О комплексе</h2>
+                            </div>
+                        </div>
+                        <div class="home-title ml-4 pl-1">
+                    <span>«Grand Victoria» — это современный, стильный и  яркий  жилой  комплекс,  сочетающий  в  себе  комфорт, функциональность  и  красоту.  Высокий уровень жизни в ЖК «Grand Victoria» обеспечивается за счёт качества строительства,  продуманных  архитектурных  решений,  транспортной  доступности  и  развитой  инфраструктуры. Объект возводится  в  престижном  и  уютном  микрорайоне  столицы,  на  пересечении  улиц  С. Нурмагамбетова  и
+Ж. Нажимеденова,  в  непосредственной  близости  к  значимым  культурным  объектам  Нур-Султана.  Рядом  находятся мечеть  «Хазрет  Султан»,  Национальный  музей  Республики Казахстан,  Дворец творчества «Шабыт»,  Казахский Государственный академический музыкально-драматический театр им. К. Куанышбаева, монумент «Қазақ Елі». В шаговой доступности несколько государственных и частных школ и детских садов</span>
+                        </div>
+                        <div class="row ml-3 pt-5">
+                            <div class="col-6 col-sm-3 col-md-3 col-lg-3 d-flex align-items-center justify-content-between">
+                                <div class="complex-number-description">
+                                    <div class="complex-number">
+                                        <h6 class="color-red text-center">4</h6>
+                                    </div>
+                                    <div class="complex-number-title">
+                                        <span>дома</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-3 col-md-3 col-lg-3 d-flex align-items-center justify-content-between">
+                                <div class="complex-number-description">
+                                    <div class="complex-number">
+                                        <h6 class="color-red text-center">9</h6>
+                                    </div>
+                                    <div class="complex-number-title">
+                                        <span>этажей</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-3 col-md-3 col-lg-3 d-flex align-items-center justify-content-between">
+                                <div class="complex-number-description">
+                                    <div class="complex-number">
+                                        <h6 class="color-red text-center">1040</h6>
+                                    </div>
+                                    <div class="complex-number-title">
+                                        <span>квартир</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-3 col-md-3 col-lg-3 d-flex align-items-center justify-content-between">
+                                <div class="complex-number-description">
+                                    <div class="complex-number">
+                                        <h6 class="color-red text-center">2022 г.</h6>
+                                    </div>
+                                    <div class="complex-number-title">
+                                        <span>cдача в эксплуатацию</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="premium-description pt-5">
+                        <div class="premium-before">
+                            <div class="premium-subtitle d-flex">
+                                <h2 class="ml-4 pl-1">Преимущества</h2>
+                            </div>
+                        </div>
+                        <div class="premium-image ml-4 pl-1">
+                            <img class="img-fluid" src="./public/images/premium.png" alt="">
+                        </div>
+                        <div class="location">
+                            <img class="chevron-bottom" src="./public/images/icons/chevron.svg" alt="">
+
+                            <div class="location-subtitle pt-5 p-1">
+                                <h2 class="ml-5 pl-3">Локация</h2>
+                                <p class="ml-5 pl-3 pt-2">Жилой комплекс «Grand Victoria» расположен в самом сердце
+                                    культурной
+                                    жизни столицы. Не нужно далеко ехать, чтобы посетить мечеть, театр, музей или
+                                    концертный зал
+                                    – всё это в шаговой доступности. </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row ml-4 pl-1 mt-5">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <div class="card border-0 card-right-chevron">
+
+                                <div class="card-img">
+                                    <img class="img-fluid" src="./public/images/01.png" alt="">
+                                </div>
+                                <div class="chevron">
+                                    <img class="chevron-bottom-img position-absolute img-fluid"
+                                         src="./public/images/icons/chevron.svg" alt="">
+                                </div>
+
+                                <div class="card-subtitle pt-2 ml-4">
+                                    <h5>Разумные метры </h5>
+                                </div>
+                                <div class="card-title pt-2 ml-4">
+                                    <span>При проектировании квартир ЖК «Grand Victoria» использовался принцип «Разумные метры», который позволил эффективно использовать каждый квадратный метр площади. Все планировки функциональны - нет слишком длинных коридоров, тупиков и тёмных углов. Рациональные, эргономичные и продуманные планировки позволят функционально разместить мебель и сделать пространство комфортным</span>
+                                </div>
+                            </div>
+                            <div class="card border-0 pt-4">
+
+                                <div class="card-img">
+                                    <img class="img-fluid" src="./public/images/03.png" alt="">
+                                </div>
+                                <div class="chevron">
+                                    <img class="chevron-bottom-img position-absolute img-fluid"
+                                         src="./public/images/icons/chevron.svg" alt="">
+                                </div>
+                                <div class="card-subtitle pt-2 ml-4">
+                                    <h5>Технология строительства </h5>
+                                </div>
+                                <div class="card-title pt-2 ml-4">
+                                    <span>Проект возводится по уникальному методу индустриального строительства. Все изделия выпускаются в заводских условиях - ровные стены, готовые под оклейку обоями или покраску с проведеннымии каналами для электропроводки, трехслойные наружные фасады, отвечающие всем стандартам качества, безопасности и архитектурной эстетики. Учитывая климатические условия столицы от -40 до +40 ⁰С, изделия обладают повышенной энергоэффективностью и влагонепроницаемостью.</span>
+                                </div>
+                            </div>
+                            <div class="card border-0 pt-4">
+
+                                <div class="card-img">
+                                    <img class="img-fluid" src="./public/images/05.png" alt="">
+                                </div>
+                                <div class="chevron">
+                                    <img class="chevron-bottom-img position-absolute img-fluid"
+                                         src="./public/images/icons/chevron.svg" alt="">
+                                </div>
+                                <div class="card-subtitle pt-2 ml-4">
+                                    <h5>Паркинг</h5>
+                                </div>
+                                <div class="card-title pt-2 ml-4">
+                                    <span>Подземный паркинг с автоматизированным контролем доступа. Он оборудован системами видеонаблюдения, вентиляции и дымоудаления. Подземный паркинг рассчитан на 358 машиномест. Также имеются специальные парковочные места для водителей с ограниченными возможностями. Предусмотрено также 16 мотомест. Есть отдельная парковка для гостевых автомобилей.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <div class="card border-0 card-left">
+                                <div class="card-text-before">
+                                    <div class="card-subtitle ml-3">
+                                        <h5>Идеальные планировки</h5>
+                                    </div>
+                                    <div class="card-title ml-3">
+                                        <span>В проекте предусмотрены квартиры различной комнатности от 44 до 117 квадратных метров. Компактные однушки станут отличным вариантом для тех, кто ещё не обзавёлся семьёй. Функциональные двухкомнатные квартиры подойдут молодым парам, а для семей с детьми запроектированы просторные трёхкомнатные и четырёхкомнатные квартиры с большими площадями</span>
+                                    </div>
+                                </div>
+                                <div class="card-img">
+                                    <img class="img-fluid" src="./public/images/02.png" alt="">
+                                </div>
+                            </div>
+                            <div class="card border-0 card-left pt-5">
+                                <div class="card-text-before">
+                                    <div class="card-subtitle ml-3">
+                                        <h5>Стильные решения</h5>
+                                    </div>
+                                    <div class="card-title ml-3">
+                                        <span>Входные группы, лифтовые зоны, колясочные и другие общественные пространства комплекса не только функциональны, но и выполнены в современном стиле.  Перед лифтами предусмотрены указатели этажей, а также информационные стенды, для того, что бы быть в курсе жизни комплекса. </span>
+                                    </div>
+                                </div>
+                                <div class="card-img">
+                                    <img class="img-fluid" src="./public/images/04.png" alt="">
+                                </div>
+                            </div>
+                            <div class="card border-0 card-left pt-5">
+                                <div class="card-text-before">
+                                    <div class="card-subtitle ml-3">
+                                        <h5>Келлеры</h5>
+                                    </div>
+                                    <div class="card-title ml-3">
+                            <span>Для оптимизации пространства квартир в паркинге  предусмотрены помещения для хранения - келлеры.
+Келлерная система хранения популярна в Европе. Не нужно хранить межсезонные вещи, спортинвентарь, инструменты, туристические принадлежности на балконе или в доме.
+В келлерах можно организовать постоянное или временное хранение вещей.</span>
+                                    </div>
+                                </div>
+                                <div class="card-img">
+                                    <img class="img-fluid" src="./public/images/06.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="complex-description">
+                        <div class="complex-before">
+                            <div class="complex-subtitle d-flex">
+                                <h2 class="ml-4 pl-1">Инфраструктура</h2>
+                            </div>
+                            <div class="home-nav mt-4 mb-4">
+                                <ul class="list-unstyled ml-4 pl-1 d-flex">
+                                    <li>
+                                        <a class="text-dark font-weight-bolder" href="#">Расположение</a>
+                                    </li>
+                                    <li class="ml-4">
+                                        <a class="text-dark" href="#">Все продумано</a>
+                                    </li>
+                                    <li class="ml-4">
+                                        <a class="text-dark" href="#">Безопасный двор</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="home-title ml-4 pl-1">
+                            <span>Жилой комплекс «Grand Victoria» расположен в самом сердце культурной жизни столицы. Не нужно далеко ехать, чтобы посетить мечеть, театр, музей, концертный зал или знаковый городской монумент – всё это в шаговой доступности. Лучшие достопримечательности Нур-Султана можно видеть каждый день, устраивая неспешные прогулки.  </span>
+                        </div>
+                    </div>
+                    <div class="row card-gallery pt-4">
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                            <div class="card   ">
+                                <div class="card-image">
+                                    <img class="img-fluid" src="./public/images/07.png" alt="">
+                                </div>
+                                <div class="card-body border-left">
+                                    <div class="card-title">
+                                        <span>220 м. до Казахского драматического театра</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                            <div class="card   ">
+                                <div class="card-image">
+                                    <img class="img-fluid" src="./public/images/08.png" alt="">
+                                </div>
+                                <div class="card-body border-left">
+                                    <div class="card-title">
+                                    <span>Вид из окон на мечеть
+«Хазрет-Султан»
+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                            <div class="card   ">
+                                <div class="card-image">
+                                    <img class="img-fluid" src="./public/images/09.png" alt="">
+                                </div>
+                                <div class="card-body border-left">
+                                    <div class="card-title">
+                                        <span>220 м. до Казахского драматического театра</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 pt-4">
+                            <div class="card   ">
+                                <div class="card-image">
+                                    <img class="img-fluid" src="./public/images/010.png" alt="">
+                                </div>
+                                <div class="card-body border-left">
+                                    <div class="card-title">
+                                    <span>5 мин. до Национального музея
+Республики Казахстан</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 pt-4">
+                            <div class="card   ">
+                                <div class="card-image">
+                                    <img class="img-fluid" src="./public/images/011.png" alt="">
+                                </div>
+                                <div class="card-body border-left">
+                                    <div class="card-title">
+                                    <span>1 км. до Президентского
+парка</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 pt-4">
+                            <div class="card   ">
+                                <div class="card-image">
+                                    <img class="img-fluid" src="./public/images/012.png" alt="">
+                                </div>
+                                <div class="card-body border-left">
+                                    <div class="card-title">
+                                        <span>7 мин. ходьбы до Дворца творчества «Шабыт»</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="usluga mt-5">
+                        <div class="premium-before">
+                            <div class="premium-subtitle d-flex">
+                                <h2 class="ml-4 pl-1">Условия приобретения</h2>
+                            </div>
+                            <div class="row ml-3 mt-4">
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                                    <div class="hover-card border w-100">
+                                        <div class="flip-box d-flex ">
+                                            <div class="flip-box-inner">
+                                                <div class="flip-box-front pt-2">
+                                                    <img src="./public/images/icons/money_dark.svg" alt="Money">
+                                                </div>
+                                                <div class="flip-box-back">
+                                                    <div class="flip-box-front pt-1">
+                                                        <img src="./public/images/icons/money_white.svg" alt="Money">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card-text mt-2 w-100">
+                                                <strong>340 000 тг</strong>
+                                                <p>При 100% оплате</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                                    <div class="hover-card border w-100">
+                                        <div class="flip-box d-flex">
+                                            <div class="flip-box-inner">
+                                                <div class="flip-box-front pt-2">
+                                                    <img src="./public/images/icons/clock_dark.svg" alt="Money">
+                                                </div>
+                                                <div class="flip-box-back">
+                                                    <div class="flip-box-front pt-2">
+                                                        <img src="./public/images/icons/clock_white.svg" alt="Money">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card-text mt-2 w-100">
+                                                <strong>360 000 тг</strong>
+                                                <p>В рассрочку</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                                    <div class="hover-card border w-100">
+                                        <div class="flip-box d-flex ">
+                                            <div class="flip-box-inner">
+                                                <div class="flip-box-front pt-2">
+                                                    <img src="./public/images/icons/percent_dark.svg" alt="Money">
+                                                </div>
+                                                <div class="flip-box-back">
+                                                    <div class="flip-box-front pt-2">
+                                                        <img src="./public/images/icons/percent_white.svg" alt="Money">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card-text mt-2 w-100">
+                                                <strong>380 000 тг</strong>
+                                                <p>В ипотеку</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="complex-description mt-5">
+                        <div class="complex-before">
+                            <div class="complex-subtitle">
+                                <h2 class="ml-4 pl-1">Инфраструктура</h2>
+                            </div>
+                            <div class="video-desc hw70 ml-3 d-flex align-items-center justify-content-center">
+                                <div class="video-img position-absolute">
+                                    <img class="img-fluid" src="./public/images/video.png" alt="">
+                                </div>
+                                <div class="video-icon  position-relative">
+                                    <img class="play-icon" src="./public/images/icons/play.svg" alt="">
+                                </div>
+                            </div>
+
+                            <div class="video-btn-desc d-flex align-items-center justify-content-center">
+                                <button class="btn video-btn border">Во дворе</button>
+                                <button class="btn video-btn border">На улице</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plan-section mt-">
+                        <div class="plan-subtitle text-center mb-4">
+                            <h2>Типовые планировки</h2>
+                        </div>
+                        <div class="home-nav  mb-4">
+                            <ul class="list-unstyled ml-4 pl-1 d-flex align-items-center justify-content-center">
+                                <li>
+                                    <a class="text-dark font-weight-bolder" href="#">1-комнатные</a>
+                                </li>
+                                <li class="ml-4">
+                                    <a class="text-dark" href="#">2-х комнатные</a>
+                                </li>
+                                <li class="ml-4">
+                                    <a class="text-dark" href="#">3-х комнатные</a>
+                                </li>
+                                <li class="ml-4">
+                                    <a class="text-dark" href="#">4-х комнатные</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row pt-4">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                <div class="plan-card">
+                                    <div class="plan-subtitle pb-2">
+                                        <h4>ВАРИАНТ 1</h4>
+                                    </div>
+                                    <div class="plan-title pb-2 d-flex">
+                                        <span>Пятно</span>
+                                        <strong class="ml-auto">1, 2, 3, 4</strong>
+                                    </div>
+                                    <div class="plan-title pb-2 pt-2 d-flex">
+                                        <span>Этажи</span>
+                                        <strong class="ml-auto">2-9</strong>
+                                    </div>
+                                    <div class="plan-title pb-2 d-flex">
+                                        <span>Комнат</span>
+                                        <strong class="ml-auto">1</strong>
+                                    </div>
+                                    <div class="plan-title pb-2 d-flex">
+                                        <span>Площадь</span>
+                                        <strong class="ml-auto">44, 10</strong>
+                                    </div>
+                                    <div class="plan-title pb-2 pt-2 d-flex">
+                                        <span>Кухня</span>
+                                        <strong class="ml-auto">12,46</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                <div class="plang-img">
+                                    <img class="img-fluid" src="./public/images/plan_img.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="galerry-section mt-5">
+                        <div class="galerry-subtitle">
+                            <h2>Галерея</h2>
+                        </div>
+                        <div class="carousel_slide">
+                            <img class="" src="./public/images/013.png" alt="">
+                            <img class="" src="./public/images/home-bg.png" alt="">
+                            <img class="" src="./public/images/premium.png" alt="">
+                        </div>
+                    </div>
+                    <div class="complex-description mt-5">
+                        <div class="complex-before">
+                            <div class="complex-subtitle d-flex">
+                                <h2 class="ml-4 pl-1">Инфраструктура</h2>
+                            </div>
+                            <div class="home-nav mt-4 mb-4">
+                                <!--                        <ul class="list-unstyled ml-4 pl-1 d-flex">-->
+                                <!--                            <li>-->
+                                <!--                                <a class="text-dark font-weight-bolder" href="#">-->
+                                <!--                                    Декабрь 2021-->
+                                <!--                                </a>-->
+                                <!--                            </li>-->
+                                <!--                            <li class="ml-4">-->
+                                <!--                                <a class="text-dark" href="#">Январь 2022</a>-->
+                                <!--                            </li>-->
+                                <!--                            <li class="ml-4">-->
+                                <!--                                <a class="text-dark" href="#">Март 2022 </a>-->
+                                <!--                            </li>-->
+                                <!--                            <li class="ml-4">-->
+                                <!--                                <a class="text-dark" href="#">Апрель 2022 </a>-->
+                                <!--                            </li>-->
+                                <!--                            <li class="ml-4">-->
+                                <!--                                <a class="text-dark" href="#">Май 2022 </a>-->
+                                <!--                            </li>-->
+                                <!--                            <li class="ml-4">-->
+                                <!--                                <a class="text-dark" href="#">Июнь 2022 </a>-->
+                                <!--                            </li>-->
+                                <!--                            <li class="ml-4">-->
+                                <!--                                <a class="text-dark" href="#">Июль 2022 </a>-->
+                                <!--                            </li>-->
+                                <!--                            <li class="ml-4">-->
+                                <!--                                <a class="text-dark" href="#">Сентябрь 2022 </a>-->
+                                <!--                            </li>-->
+                                <!--                            <li class="ml-4">-->
+                                <!--                                <a class="text-dark" href="#">Сентябрь 2022 </a>-->
+                                <!--                            </li>-->
+                                <!--                            <li class="ml-4">-->
+                                <!--                                <a class="text-dark" href="#">Октябрь 2022 </a>-->
+                                <!--                            </li>-->
+                                <!--                            <li class="ml-4">-->
+                                <!--                                <a class="text-dark" href="#">Ноябрь 2022 </a>-->
+                                <!--                            </li>-->
+                                <!--                            <li class="ml-4">-->
+                                <!--                                <a class="text-dark" href="#">Декабрь 2022 </a>-->
+                                <!--                            </li>-->
+                                <!--                        </ul>-->
+                            </div>
+                        </div>
+                        <div class="card_slide">
+                            <img class="img-fluid p-2" src="./public/images/car03.png" alt="">
+                            <img class="img-fluid p-2" src="./public/images/car03.png" alt="">
+                            <img class="img-fluid p-2" src="./public/images/car03.png" alt="">
+                            <img class="img-fluid p-2" src="./public/images/car03.png" alt="">
+                            <img class="img-fluid p-2" src="./public/images/car03.png" alt="">
+                        </div>
+                    </div>
+                    <div class="news-section mt-5">
+                        <div class="premium-before asd">
+                            <div class="premium-subtitle d-flex">
+                                <h2 class="ml-4 pl-1">Условия приобретения</h2>
+                            </div>
+                            <div class="row ml-3 mt-4">
+                                <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                                    <div class="card border">
+                                        <div class="card-image">
+                                            <img class="img-fluid" src="./public/images/014.png" alt="">
+<!--                                            <div class="card-text">-->
+<!--                                                <span>25 января 2022 </span>-->
+<!--                                            </div>-->
+                                        </div>
+                                        <div class="card-subtitle p-3">
+                                            <strong>Строительство ЖК «Grand Victoria» выходит на финишную
+                                                прямую</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                                    <div class="card border">
+                                        <div class="card-image">
+                                            <img class="img-fluid" src="./public/images/014.png" alt="">
+<!--                                            <div class="card-text">-->
+<!--                                                <span>25 января 2022 </span>-->
+<!--                                            </div>-->
+                                        </div>
+                                        <div class="card-subtitle p-3">
+                                            <strong>Строительство ЖК «Grand Victoria» выходит на финишную
+                                                прямую</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                                    <div class="card border">
+                                        <div class="card-image">
+                                            <img class="img-fluid" src="./public/images/014.png" alt="">
+<!--                                            <div class="card-text">-->
+<!--                                                <span>25 января 2022 </span>-->
+<!--                                            </div>-->
+                                        </div>
+                                        <div class="card-subtitle p-3">
+                                            <strong>Строительство ЖК «Grand Victoria» выходит на финишную
+                                                прямую</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+                                    <div class="card border">
+                                        <div class="card-image">
+                                            <img class="img-fluid" src="./public/images/014.png" alt="">
+<!--                                            <div class="card-text">-->
+<!--                                                <span>25 января 2022 </span>-->
+<!--                                            </div>-->
+                                        </div>
+                                        <div class="card-subtitle p-3">
+                                            <strong>Строительство ЖК «Grand Victoria» выходит на финишную
+                                                прямую</strong>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class=" ml-3 mt-4">Все новости</a>
+
+                            </div>
+                            <div class="row  ml-3 mt-4">
+                                <form class="border w-100 m-4">
+                                    <div class="row p-4 w-100 pt-5 pb-5">
+                                        <div class="col-4">
+                                            <form>
+                                                <label for="exampleInputEmail12">Имя</label>
+
+                                                <input type="text" class="form-control" placeholder="Введите имя">
+                                            </form>
+                                        </div>
+                                        <div class="col-4">
+                                            <label for="exampleInputPhone1">Телефон</label>
+
+                                            <input type="text" class="form-control" placeholder="+7">
+                                        </div>
+                                        <div class="col-4 ">
+                                            <div class="home-bg-bottom-btn pt10">
+                                                <button class="btn">Выбрать квартиру</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer mt-5">
+                        <img class="img-fluid pb-5" src="./public/images/map.png" alt="">
+                        <span class=" pb-3">© 2021 ЖК «Grand Victoria»</span>
+                        <p class="mt-3">Реализация квартир, офисов и парковочных мест производится <br> в соответствии с
+                            Законом Республики Казахстан
+                            <br>от 7 апреля 2016 года № 486-V «О долевом участии в жилищном строительстве».</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="./public/bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+<script src="./public/bootstrap/js/popper.min.js"></script>
+<script src="./public/bootstrap/js/bootstrap.js"></script>
+<script src="./public/js/main.js"></script>
+<script src="public/slick-1.8.1/slick-1.8.1/slick/slick.js"></script>
+<script type="text/javascript">
+    $('.carousel_slide').slick({
+        dots: false,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 1.5,
+        slidesToScroll: 1,
+        centerMode: true,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1.5,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+    $('.card_slide').slick({
+        dots: false,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 2,
+        centerMode: false,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 2,
+                    infinite: false,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+    $(document).ready(function () {
+        $('#sidebarCollapse').on('click', function () {
+            $('#sidebar').toggleClass('active');
+        });
+    });
+</script>
+</body>
+</html>
